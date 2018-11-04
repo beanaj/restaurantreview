@@ -15,6 +15,9 @@ optimized for these viewport and devices:
 ##Dependencies
 This project relies on MapBox to render the map used on the site. It uses Leaflet CSS to 
 show details on the map.
+
+Leaflet CSS depends on the Map variable in the JS to be of type var. If you change it to let or const
+the map will no longer render.
 ##Attributions
 Base code was provided by Udacity, and forked from this repository:
 
