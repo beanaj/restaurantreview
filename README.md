@@ -5,7 +5,7 @@ This is a website that shows restaurant reviews for restaurants displayed on a m
 New York City. It is designed to work across a range of devices, and is specifically 
 optimized for these viewport and devices:
 
-* iPhone 8 at 375 x 667
+* iPhone 8 Plus at 414 x 736
 
 * iPad 9.7" at 768 x 1024
 
