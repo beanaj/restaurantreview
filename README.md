@@ -12,6 +12,25 @@ optimized for these viewport and devices:
 * Desktop at 1920 x 1080
 ##Instructions to Run
 
+To run the project, make sure you have Python installed.
+
+##### To install Python using HomeBrew:
+```
+brew install python
+```
+
+##### To run the webserver, within the project directory run this command in the in the terminal:
+
+```
+python -m SimpleHTTPServer 8000
+```
+
+##### To view the site:
+
+http://localhost:8000/
+
+
+
 ##Dependencies
 This project relies on MapBox to render the map used on the site. It uses Leaflet CSS to 
 show details on the map.
@@ -22,6 +41,10 @@ the map will no longer render.
 Base code was provided by Udacity, and forked from this repository:
 
 https://github.com/udacity/mws-restaurant-stage-1
+
+Service Worker tutorial used found here:
+
+https://developers.google.com/web/fundamentals/primers/service-workers/
 
 
 
