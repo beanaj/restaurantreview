@@ -12,7 +12,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
     fetchNeighborhoods();
     fetchCuisines();
 });
-
+if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('js/service_worker.js').catch((err) => {
+        console.log(`Problem encountered when registering service worker \n: ${err}`);
+    })
+}
 /**
  * Fetch all neighborhoods and set their HTML.
  */
